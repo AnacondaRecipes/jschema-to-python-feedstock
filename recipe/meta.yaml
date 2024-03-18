@@ -13,16 +13,15 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
-    - pbr ==5.6.0
+    - python >=3.6
+    - pbr
     - pip
-    - wheel
   run:
-    - python
+    - python >=3.6
     - attrs
     - jsonpickle
     - pbr
@@ -37,13 +36,9 @@ test:
 
 about:
   home: https://github.com/microsoft/jschema-to-python
-  dev_url: https://github.com/microsoft/jschema-to-python
-  doc_url: https://github.com/microsoft/jschema-to-python
   summary: Generate source code for Python classes from a JSON schema.
-  description: Generate source code for Python classes from a JSON schema.
   license: MIT
   license_file: LICENSE
-  license_family: MIT
 
 extra:
   recipe-maintainers:
