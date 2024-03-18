@@ -39,8 +39,8 @@ about:
   home: https://github.com/microsoft/jschema-to-python
   dev_url: https://github.com/microsoft/jschema-to-python
   doc_url: https://github.com/microsoft/jschema-to-python
-  summary: Generate source code for Python classes from a JSON schema.
-  description: Generate source code for Python classes from a JSON schema.
+  summary: Generate source code for Python classes from JSON schema.
+  description: Generate source code for Python classes from JSON schema.
   license: MIT
   license_file: LICENSE
   license_family: MIT
